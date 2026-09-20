@@ -1,20 +1,28 @@
-## Hi 👋 我是 DanielQu9(dxq)
+<p align="center">
+  <img src="./assets/banner.gif" width="600" alt="Anime GIF">
+</p>
 
-[picture source](https://www.pinterest.com/pin/141441244543030963/)
-<!--
-**DanielQu9/DanielQu9** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Hi 👋 我是 DanielQu9
 
-Here are some ideas to get you started:
+資訊工程系學生，目前主要在學習 **Rust** 與 **Python**。
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+我精通許多程式語言的 `Hello, World!`。
+其他部分還在努力理解它們為什麼能夠運作。
 
-<h3 align="left">我精通以下語言的Hello, World:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.rust-lang.org" target="_blank" rel="noreferrer"> <img src="https://www.rust-lang.org/static/images/rust-logo-blk.svg" alt="rust" width="40" height="40"/> </a> </p>
+### 最近在做什麼
+
+* 🦀 用 Rust 寫一些奇怪的小東西
+* 🔨 製作 Rust-to-C 翻譯器 **IdwC**
+* 🔌 摸索 ESP32 與嵌入式開發
+* 🌐 學習後端、網路與前端
+* 📝 準備自己的技術部落格
+
+### 使用過的東西
+
+<p>
+  <img src="https://skillicons.dev/icons?i=rust,python,c,cpp,fastapi,mongodb,sqlite,docker,cloudflare,git" alt="Tech stack">
+</p>
+
+---
+
+> 通常只是想做個小工具，最後卻開始研究編譯器、記憶體或作業系統。
