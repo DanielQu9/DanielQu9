@@ -36,15 +36,6 @@
   </defs>
 
   <!-- 背景圖片 -->
-  <image
-    href="https://raw.githubusercontent.com/DanielQu9/DanielQu9/main/assets/background.gif"
-    xlink:href="https://raw.githubusercontent.com/DanielQu9/DanielQu9/main/assets/background.gif"
-    x="0"
-    y="0"
-    width="720"
-    height="405"
-    preserveAspectRatio="xMidYMid slice"
-  />
 
   <!-- 右側深色漸層 -->
   <rect

@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="./assets/banner.svg"
+    src="./assets/banner-composited.gif"
     width="100%"
     alt="DanielQu9 banner"
   >
