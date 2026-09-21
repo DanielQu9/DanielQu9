@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="./assets/banner.gif" width="600" alt="Anime GIF">
+  <img
+    src="./assets/banner.svg"
+    width="100%"
+    alt="DanielQu9 banner"
+  >
 </p>
 
 ## Hi 👋 我是 DanielQu9
