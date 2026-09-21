@@ -1,10 +1,4 @@
-<p align="center">
-  <img
-    src="./assets/banner-composited.gif"
-    width="100%"
-    alt="DanielQu9 banner"
-  >
-</p>
+![GIF 載入中 QWQ](./assets/banner-composited.gif)
 
 ## Hi 👋 我是 DanielQu9
 
