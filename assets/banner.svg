@@ -1,0 +1,117 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 720 405"
+  width="720"
+  height="405"
+>
+  <defs>
+    <!-- 讓右側稍微變暗，避免白色文字看不清楚 -->
+    <linearGradient id="darken" x1="0" x2="1">
+      <stop offset="35%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#07101c" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <!-- 打字效果：逐漸擴張可見範圍 -->
+    <clipPath id="typing">
+      <rect x="405" y="0" width="0" height="405">
+        <animate
+          attributeName="width"
+          values="0;0;245;245;0"
+          keyTimes="0;0.12;0.55;0.88;1"
+          dur="5s"
+          repeatCount="indefinite"
+        />
+      </rect>
+    </clipPath>
+
+    <!-- 文字發光 -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- 背景圖片 -->
+  <image
+    href="background.jpg"
+    x="0"
+    y="0"
+    width="720"
+    height="405"
+    preserveAspectRatio="xMidYMid slice"
+  />
+
+  <!-- 右側深色漸層 -->
+  <rect
+    x="0"
+    y="0"
+    width="720"
+    height="405"
+    fill="url(#darken)"
+  />
+
+  <!-- 名字 -->
+  <text
+    x="410"
+    y="205"
+    fill="#d9e8f5"
+    font-family="monospace"
+    font-size="42"
+    font-weight="bold"
+    letter-spacing="2"
+    clip-path="url(#typing)"
+    filter="url(#glow)"
+  >
+    DanielQu9
+  </text>
+
+  <!-- 閃爍游標 -->
+  <rect
+    x="410"
+    y="167"
+    width="4"
+    height="48"
+    rx="2"
+    fill="#d9e8f5"
+  >
+    <!-- 游標跟著文字往右移 -->
+    <animate
+      attributeName="x"
+      values="410;410;645;645;410"
+      keyTimes="0;0.12;0.55;0.88;1"
+      dur="5s"
+      repeatCount="indefinite"
+    />
+
+    <!-- 游標閃爍 -->
+    <animate
+      attributeName="opacity"
+      values="1;0;1;0;1"
+      dur="0.7s"
+      repeatCount="indefinite"
+    />
+  </rect>
+
+  <!-- 副標題 -->
+  <text
+    x="412"
+    y="240"
+    fill="#a9bac8"
+    font-family="monospace"
+    font-size="15"
+    letter-spacing="1"
+  >
+    Rust · Python · Something strange
+    <animate
+      attributeName="opacity"
+      values="0;0;1;1;0"
+      keyTimes="0;0.5;0.65;0.9;1"
+      dur="5s"
+      repeatCount="indefinite"
+    />
+  </text>
+</svg>
