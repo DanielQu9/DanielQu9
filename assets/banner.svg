@@ -37,13 +37,13 @@
 
   <!-- 背景圖片 -->
   <image
-    href="background.jpg"
-    x="0"
-    y="0"
-    width="720"
-    height="405"
-    preserveAspectRatio="xMidYMid slice"
-  />
+  href="background.gif"
+  x="0"
+  y="0"
+  width="720"
+  height="405"
+  preserveAspectRatio="xMidYMid slice"
+/>
 
   <!-- 右側深色漸層 -->
   <rect
